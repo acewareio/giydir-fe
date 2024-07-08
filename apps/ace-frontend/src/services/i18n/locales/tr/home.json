@@ -1,0 +1,21 @@
+{
+  "title": "Giydir - AI ile kıyafet dene",
+  "seo-description": "Yapay zeka ile kıyafetleri üstünde deneyebilirsin. Fotoğraf yükle ve ücretsiz dene. İstediğin yerde dene.",
+  "description": "Her kıyafeti fotoğrafını yükleyerek üstünde deneyebilirsin. <br /> Fotoğraf yükle ve ücretsiz dene.",
+  "slogan1": "İstediğin ",
+  "sales_on": "Satışta",
+  "1": "kıyafeti",
+  "2": "yerde",
+  "3": "kadar",
+  "4": "zaman",
+  "slogan2": "dene",
+  "join_the_waitlist": "Bekleme listesine katıl",
+  "try_it_now": "Hemen dene",
+  "e-commerce-card": { "title": "Seçtiğiniz ürün", "provider": "Cihazınızdan" },
+  "extension": "Eklentiye git",
+  "platform": "Desteklediğimiz platformlar",
+  "cookies": {
+    "title": "Bu web sitesi deneyimlerinizi iyileştirmek için çerezleri kullanır. Çerez politikamızı okumak için",
+    "click": "tıklayınız."
+  }
+}

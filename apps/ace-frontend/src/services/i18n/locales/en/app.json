@@ -1,0 +1,27 @@
+{
+  "title": "Giydir | Dashboard",
+  "categories": {
+    "last-dressed": {
+      "title": "Recently Dressed",
+      "description": "Your recently dressed outfits are here.",
+      "button": "Dress Up"
+    },
+    "model-photos": {
+      "title": "Models",
+      "description": "Your uploaded model photos in Giydir.",
+      "button": "Add New Model"
+    },
+    "my-clothes": {
+      "title": "Clothes",
+      "description": "Your uploaded clothes photos in Giydir.",
+      "button": "Add New Clothes"
+    }
+  },
+  "toast": {
+    "imageOnSuccess": "Image uploaded successfully.",
+    "imageOnFail": "Failed to upload image.",
+    "imageDeleteOnSuccess": "Image deleted successfully.",
+    "imageDeleteOnFail": "Failed to delete image.",
+    "noAuth": "You must log in to buy a subscription."
+  }
+}

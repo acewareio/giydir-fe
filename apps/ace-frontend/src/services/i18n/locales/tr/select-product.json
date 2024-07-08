@@ -1,0 +1,39 @@
+{
+  "toastSuccess": {
+    "title": "Başarılı",
+    "description": "Ürün bilgisi başarıyla alındı."
+  },
+  "toastFail": {
+    "title": "Hata",
+    "description": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "wrongUrl": "Yanlış URL girdiniz. Lütfen doğru bir URL girin.",
+  "urlTitle": {
+    "title": "Kıyafet",
+    "info": "(URL veya Resim)"
+  },
+  "marketPlaceInfo": "'da satışta",
+  "orUploadImage": {
+    "or": "veya",
+    "uploadImage": "Resim Yükle"
+  },
+  "inputUrlPlaceholder": "Seçtiğin ürünün Trendyol ya da Amazon URL'ini gir",
+  "continueButton": "Devam Et",
+  "emptyFieldError": "Lütfen ürünün URL’ini giriniz.",
+  "delete-success": {
+    "title": "Başarılı",
+    "description": "Ürün bilgisi başarıyla silindi."
+  },
+  "delete-error": {
+    "title": "Hata",
+    "description": "Ürün bilgisi silinirken bir hata oluştu."
+  },
+  "create-error": {
+    "title": "Hata",
+    "description": "Ürün bilgisi yüklenirken bir hata oluştu."
+  },
+  "create-success": {
+    "title": "Başarılı",
+    "description": "Ürün bilgisi başarıyla yüklenirken bir hata oluştu."
+  }
+}

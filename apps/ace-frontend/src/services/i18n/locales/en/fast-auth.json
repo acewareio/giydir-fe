@@ -1,0 +1,18 @@
+{
+  "form": {
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password"
+  },
+  "register": "Register",
+  "login": "Login",
+  "dialogDescription": {
+    "oneThPeace": "To see the result, you need to",
+    "ifUser": "log in",
+    "ifItIsNotUser": "sign up",
+    "twoThPeace": "."
+  },
+  "alreadyRegistered": "Zaten üye misin?",
+  "noAccountText": "Hesabınız yok mu?"
+}

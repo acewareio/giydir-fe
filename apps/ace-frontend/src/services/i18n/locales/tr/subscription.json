@@ -1,0 +1,40 @@
+{
+  "pricing_list": "Fiyatlandırma Listesi",
+  "content": "İçerik",
+  "plans": {
+    "extra": {
+      "name": "Ekstra",
+      "price": "9.99 TL",
+      "duration": "tek seferlik",
+      "usage": "10 kullanım hakkı",
+      "button": "Satın Al"
+    },
+    "free": {
+      "name": "Free",
+      "price": "0 TL",
+      "duration": "aylık",
+      "usage": "Günlük 3 kullanım hakkı",
+      "button": "Kullanım Hakkınız Her Gün Yenilenir",
+      "contents": [
+        "Kıyafet galerisinde 10 fotoğraf hakkı",
+        "Model galerisinde 5 fotoğraf hakkı"
+      ],
+      "ideal_for": "Sınırlı ihtiyaçları olan bireyler ve küçük ekipler için idealdir."
+    },
+    "premium": {
+      "popular": true,
+      "name": "Premium",
+      "price": "49.99 TL",
+      "duration": "aylık",
+      "usage": "Günlük 10 kullanım hakkı",
+      "button": "Satın Al",
+      "contents": [
+        "Kıyafet galerisinde 1000 fotoğraf hakkı",
+        "Model galerisinde 15 fotoğraf hakkı"
+      ],
+      "ideal_for": "Gruplar ve byk ekipler için idealdir.",
+      "variant_id": "409686"
+    },
+    "popular": "Popüler"
+  }
+}

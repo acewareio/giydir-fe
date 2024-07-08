@@ -1,0 +1,67 @@
+{
+  "title": "Profile",
+  "title1": "Edit Profile",
+  "title2": "Change Password",
+  "actions": {
+    "edit": "Edit",
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "inputs": {
+    "photo": {
+      "label": "Photo",
+      "validation": {
+        "required": "Photo is required"
+      }
+    },
+    "firstName": {
+      "label": "First Name",
+      "validation": {
+        "required": "First Name is required"
+      },
+      "placeholder": "Enter your first name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "validation": {
+        "required": "Last Name is required"
+      },
+      "placeholder": "Enter your last name"
+    },
+    "oldPassword": {
+      "label": "Old Password",
+      "validation": {
+        "required": "Old Password is required",
+        "min": "Old Password must be at least 6 characters long",
+        "server": {
+          "incorrectOldPassword": "Old Password is not valid"
+        }
+      },
+      "placeholder": "Enter your old password"
+    },
+    "password": {
+      "label": "New Password",
+      "validation": {
+        "required": "New Password is required",
+        "min": "New Password must be at least 6 characters long"
+      },
+      "placeholder": "Enter your new password"
+    },
+    "passwordConfirmation": {
+      "label": "Password confirmation",
+      "validation": {
+        "required": "Password confirmation is required",
+        "match": "Password confirmation must match password"
+      },
+      "placeholder": "Re-enter your new password"
+    }
+  },
+  "alerts": {
+    "password": {
+      "success": "Password has been updated successfully"
+    },
+    "profile": {
+      "success": "Profile has been updated successfully"
+    }
+  }
+}

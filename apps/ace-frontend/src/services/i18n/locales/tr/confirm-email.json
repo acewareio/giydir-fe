@@ -1,0 +1,7 @@
+{
+  "title": "E-posta Onayı",
+  "emailConfirmed": "E-posta başarıyla onaylandı!",
+  "emailConfirmFailed": "E-posta onayı başarısız oldu!",
+  "success": "Başarılı",
+  "failed": "Başarısız"
+}

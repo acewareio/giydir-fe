@@ -1,0 +1,13 @@
+{
+  "auth": {
+    "signin": "Giriş yap",
+    "logout": "Çıkış yap",
+    "subscription": "Abonelik",
+    "plan": "Standart"
+  },
+  "steps": {
+    "selectImage": "Fotoğraf seç",
+    "selectProduct": "Kıyafet seç",
+    "result": "Sonuç"
+  }
+}

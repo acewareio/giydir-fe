@@ -1,0 +1,21 @@
+{
+  "infoTextPartOne": "Galeriden bir fotoğraf seçebilir",
+  "infoTextPartTwo": "Veya kendin yükleyebilirsin.",
+  "continueButton": "Devam Et",
+  "create-error": {
+    "title": "Hata",
+    "description": "Fotoğraf yüklenirken bir hata oluştu."
+  },
+  "create-success": {
+    "title": "Başarılı",
+    "description": "Fotoğraf başarıyla yüklendi."
+  },
+  "delete-error": {
+    "title": "Hata",
+    "description": "Fotoğraf silinirken bir hata oluştu."
+  },
+  "delete-success": {
+    "title": "Başarılı",
+    "description": "Fotoğraf başarıyla silindi."
+  }
+}

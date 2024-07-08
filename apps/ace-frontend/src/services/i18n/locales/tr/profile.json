@@ -1,0 +1,67 @@
+{
+  "title": "Profil",
+  "title1": "Profili Düzenle",
+  "title2": "Şifreyi Değiştir",
+  "actions": {
+    "edit": "Düzenle",
+    "submit": "Kaydet",
+    "cancel": "İptal"
+  },
+  "inputs": {
+    "photo": {
+      "label": "Fotoğraf",
+      "validation": {
+        "required": "Fotoğraf gereklidir"
+      }
+    },
+    "firstName": {
+      "label": "Adı",
+      "validation": {
+        "required": "Lütfen adınızı girin"
+      },
+      "placeholder": "Lütfen adınızı girin"
+    },
+    "lastName": {
+      "label": "Soyadı",
+      "validation": {
+        "required": "Lütfen Soyadınızı girin"
+      },
+      "placeholder": "Lütfen Soyadınızı girin"
+    },
+    "oldPassword": {
+      "label": "Eski Şifre",
+      "validation": {
+        "required": "Eski Şifre gereklidir",
+        "min": "Eski Şifre en az 6 karakter olmalıdır",
+        "server": {
+          "incorrectOldPassword": "Eski Şifre geçerli değil"
+        }
+      },
+      "placeholder": "Lütfen eski şifrenizi girin"
+    },
+    "password": {
+      "label": "Yeni Şifre",
+      "validation": {
+        "required": "Yeni Şifre gereklidir",
+        "min": "Yeni Şifre en az 6 karakter olmalıdır"
+      },
+      "placeholder": "Yeni şifrenizi girin"
+    },
+    "passwordConfirmation": {
+      "label": "Şifre Doğrulaması",
+      "validation": {
+        "required": "Şifre Doğrulaması gereklidir",
+        "match": "Şifre Doğrulaması şifreyle eşleşmelidir"
+      },
+      "placeholder": "Yeni şifrenizi tekrar girin"
+    }
+  },
+  "alerts": {
+    "password": {
+      "success": "Şifre başarıyla güncellendi"
+    },
+    "profile": {
+      "success": "Profil başarıyla güncellendi"
+    }
+  }
+}

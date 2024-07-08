@@ -1,0 +1,23 @@
+{
+  "toastSuccess": {
+    "title": "Success",
+    "description": "Product information retrieved successfully."
+  },
+  "toastFail": {
+    "title": "Error",
+    "description": "An error occurred. Please try again."
+  },
+  "wrongUrl": "You entered an incorrect URL. Please enter a valid URL.",
+  "urlTitle": {
+    "title": "Clothing",
+    "info": "(URL or Image)"
+  },
+  "marketPlaceInfo": "on sale at",
+  "orUploadImage": {
+    "or": "or",
+    "uploadImage": "Upload Image"
+  },
+  "inputUrlPlaceholder": "Enter the Trendyol or Amazon URL of the product you selected",
+  "continueButton": "Continue",
+  "emptyFieldError": "Please enter the product's URL."
+}

@@ -1,0 +1,20 @@
+{
+  "dialog": {
+    "title": "User Guide",
+    "description": "Recommended steps for taking photos with our app",
+    "buttonLastStep": "Done",
+    "button": "Continue",
+    "background": {
+      "title": "Background",
+      "description": "Ensure the background is clean and monochromatic."
+    },
+    "exposure": {
+      "title": "Exposure",
+      "description": "Ensure the exposure is set at a distance that fits the user into the frame."
+    },
+    "cameraAngle": {
+      "title": "Camera Angle",
+      "description": "Ensure the camera angle is central and straight."
+    }
+  }
+}

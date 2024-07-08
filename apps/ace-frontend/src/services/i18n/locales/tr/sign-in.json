@@ -1,0 +1,43 @@
+{
+  "title": "Giydir | Giriş yap",
+  "description": "Hesabınıza giriş yapın",
+  "loading": "Giriş Yapılıyor..",
+  "dontHaveAccount": "Hesabınız yok mu?",
+  "actions": {
+    "submit": "Giriş Yap",
+    "createAccount": "Hesap Oluştur",
+    "forgotPassword": "Şifremi Unuttum"
+  },
+  "alerts": {
+    "error": {
+      "title": "Hata",
+      "description": "Hatalı giriş yaptınız. Lütfen bilgilerinizi kontrol edin."
+    }
+  },
+  "inputs": {
+    "email": {
+      "label": "E-posta",
+      "validation": {
+        "required": "E-posta gerekli",
+        "invalid": "Geçerli bir e-posta adresi girin",
+        "server": {
+          "emailNotExists": "E-posta adresi bulunamadı"
+        }
+      },
+      "placeholder": "E-posta adresinizi girin"
+    },
+    "password": {
+      "label": "Şifre",
+      "validation": {
+        "required": "Şifre gerekli",
+        "min": "Şifre en az 6 karakter olmalıdır",
+        "server": {
+          "incorrectPassword": "Şifre yanlış"
+        }
+      },
+      "placeholder": "Şifrenizi girin"
+    }
+  },
+  "or": "ya da",
+  "google": "Google ile giriş yap"
+}

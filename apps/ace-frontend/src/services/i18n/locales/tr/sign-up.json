@@ -1,0 +1,67 @@
+{
+  "title": "Giydir | Kayıt ol",
+  "description": "Hızlıca kayıt ol",
+  "actions": {
+    "submit": "Kayıt ol",
+    "accountAlreadyExists": "Zaten hesabım var",
+    "login": "Giriş"
+  },
+  "isLoading": "Kayıt Yapılıyor...",
+  "errorCodes": {
+    "code422": "Girilen e-posta adresi sistemimizde kayıtlıdır. Bu hesapla ilgili işlemleri yapmak için lütfen giriş yapın. Eğer şifrenizi unuttuysanız şifre yenileme seçeneğini kullanın."
+  },
+  "successCodes": {
+    "codeSuccess": "Kayıt Başarılı, Yönlendiriliyorsunuz.."
+  },
+  "inputs": {
+    "firstName": {
+      "label": "İsim",
+      "validation": {
+        "required": "İsim zorunludur!"
+      },
+      "placeholder": "İsminizi girin"
+    },
+    "lastName": {
+      "label": "Soyisim",
+      "validation": {
+        "required": "Soyisim zorunludur"
+      },
+      "placeholder": "Soyisminizi girin"
+    },
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "E-posta zorunludur",
+        "invalid": "E-posta geçerli değil",
+        "server": {
+          "emailAlreadyExists": "Bu e-posta zaten kayıtlı"
+        }
+      },
+      "placeholder": "E-posta adresinizi girin"
+    },
+    "password": {
+      "label": "Şifre",
+      "validation": {
+        "required": "Şifre zorunludur",
+        "min": "Şifre en az 6 karakter olmalıdır",
+        "server": {
+          "incorrectPassword": "Şifre yanlış"
+        }
+      },
+      "placeholder": "Şifrenizi girin"
+    },
+    "kvkk": {
+      "label1": "Şartları",
+      "label2": "Gizlilik sözleşmesi",
+      "label3": "'ni kabul ediyorum.",
+      "validation": "KVKK zorunludur."
+    },
+    "non_disclosure": {
+      "label": "İletişim bilgilerime kampanya, tanıtım ve reklam içerikli ticari elektronik ileti gönderilmesine, bu amaçla kişisel verilerimin işlenmesine ve tedarikçilerinizle paylaşılmasına izin veriyorum."
+    }
+  },
+  "or": "ya da",
+  "and": "ve",
+  "google": "Google ile kayıt ol",
+  "socialAuthentication": "Google veya Apple kimliğinizle bir sonraki adıma geçmeniz halinde Bireysel Hesap Sözleşmesi ve Ekleri'ni kabul etmiş sayılırsınız."
+}

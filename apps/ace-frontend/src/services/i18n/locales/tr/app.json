@@ -1,0 +1,27 @@
+{
+  "title": "Giydir | Dashboard",
+  "categories": {
+    "last-dressed": {
+      "title": "Son giydirilenler",
+      "description": "En son giydirilen kiyafetlerin burada.",
+      "button": "Giydir"
+    },
+    "model-photos": {
+      "title": "Modeller",
+      "description": "Yüklediğin model fotoğrafların",
+      "button": "Yeni Model Ekle"
+    },
+    "my-clothes": {
+      "title": "Kıyafetler",
+      "description": "Yüklediğin kıyafet fotoğrafların",
+      "button": "Yeni Kıyafet Ekle"
+    }
+  },
+  "toast": {
+    "imageOnSuccess": "Resim başarıyla yüklendi.",
+    "imageOnFail": "Resim yüklenemedi.",
+    "imageDeleteOnSuccess": "Resim başarıyla kaldırıldı.",
+    "imageDeleteOnFail": "Resim kaldırılamadı.",
+    "noAuth": "Abonelik satın almak için giriş yapmalısınız."
+  }
+}

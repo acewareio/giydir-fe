@@ -1,0 +1,26 @@
+{
+  "downloadButton": "İndir",
+  "shareButton": "Paylaş",
+  "close": "Kapat",
+  "photosLoadingText": "Fotoğraflar Yükleniyor...",
+  "feedback": "Geribildirim ver",
+  "feedbackText": "Size daha iyi hizmet verebilmemiz için lütfen geri bildirimde bulunun.",
+  "shareText": {
+    "shareTextPartOne": "İşte benim satın almadan denediklerim!",
+    "shareTextPartTwo": "'ı denemeyi unutma!",
+    "shareTextEn": ""
+  },
+  "sseSteps": {
+    "created": "Fotoğraflar Yükleniyor...",
+    "analyzing": "Model Analizi",
+    "drafting": "Kıyafet Uygulama",
+    "completed": "Sonuç Hazırlanıyor"
+  },
+  "resultModal": {
+    "defaultTitle": "İşte benim satın almadan denediklerim! | Giydir.ai'yı denemelisin!"
+  },
+  "copyToClipboard": {
+    "onSuccess": "Panoya kopyalandı!",
+    "onFail": "Link kopyalanamadı, lütfen tekrar deneyin."
+  }
+}

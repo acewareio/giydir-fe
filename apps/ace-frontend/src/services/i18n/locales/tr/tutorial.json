@@ -1,0 +1,20 @@
+{
+  "dialog": {
+    "title": "Kullanım Kılavuzu",
+    "description": "Fotoğraf çekerken uygulamanız önerilen adımlar",
+    "buttonLastStep": "Tamam",
+    "button": "Devam et"
+  },
+  "background": {
+    "title": "Arka Plan",
+    "description": "Arkaplanın temiz ve tek renk olmasına dikkat edin."
+  },
+  "exposure": {
+    "title": "Pozlama",
+    "description": "Pozlamanın kullanıcının kadraja sığacağı uzaklıkta olmasına dikkat edin."
+  },
+  "cameraAngle": {
+    "title": "Kamera Açısı",
+    "description": "Kamera açısının orta ve düz bir açıda olmasına dikkat edin."
+  }
+}

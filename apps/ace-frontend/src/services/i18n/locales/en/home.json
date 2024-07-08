@@ -1,0 +1,24 @@
+{
+  "title": "Landing Page | Giydir",
+  "seo-description": "Upload any outfit photo and try it on virtually. Upload your photo and try it for free.",
+  "description": "Upload any outfit photo and try it on virtually. <br /> Upload your photo and try it for free.",
+  "slogan1": "Try any ",
+  "sales_on": "On Sale",
+  "1": "outfit",
+  "2": "in",
+  "3": "under",
+  "4": "minutes",
+  "slogan2": "virtually",
+  "join_the_waitlist": "Join the Waitlist",
+  "try_it_now": "Try it Now",
+  "e-commerce-card": {
+    "title": "Your Selected Item",
+    "provider": "From Your Device"
+  },
+  "extension": "Go to Extension",
+  "platform": "The platforms we support",
+  "cookies": {
+    "title": "This website uses cookies to improve your experience. To read our cookie policy",
+    "click": "click"
+  }
+}

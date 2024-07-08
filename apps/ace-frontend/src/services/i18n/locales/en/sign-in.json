@@ -1,0 +1,38 @@
+{
+  "title": "Giydir | Login",
+  "description": "Sign in to your account",
+
+  "loading": "Logging In...",
+  "dontHaveAccount": "Don't have an account?",
+  "actions": {
+    "submit": "Login",
+    "createAccount": "Create Account",
+    "forgotPassword": "Forgot Password"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email is required",
+        "invalid": "Please enter a valid email address",
+        "server": {
+          "emailNotExists": "Email address not found"
+        }
+      },
+      "placeholder": "Enter your email address"
+    },
+    "password": {
+      "label": "Password",
+      "validation": {
+        "required": "Password is required",
+        "min": "Password must be at least 6 characters",
+        "server": {
+          "incorrectPassword": "Incorrect password"
+        }
+      },
+      "placeholder": "Enter your password"
+    }
+  },
+  "or": "or",
+  "google": "Log in with Google"
+}

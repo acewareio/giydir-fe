@@ -1,0 +1,18 @@
+{
+  "form": {
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "password": "Şifre",
+    "passwordPlaceholder": "Şifrenizi girin"
+  },
+  "register": "Üye Ol",
+  "login": "Giriş Yap",
+  "dialogDescription": {
+    "oneThPeace": "Sonucu görebilmek için",
+    "ifUser": "giriş yapmanız",
+    "ifItIsNotUser": "üye olmanız",
+    "twoThPeace": "gerekiyor."
+  },
+    "alreadyRegisteredText": "Zaten üye misiniz ? Giriş yap",
+    "noAccountText": "Hesabınız yok mu ? Kayıt olun"
+}

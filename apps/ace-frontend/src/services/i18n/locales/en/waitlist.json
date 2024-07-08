@@ -1,0 +1,30 @@
+{
+  "title": "Join the Waitlist",
+  "description": "Enter your email address and we'll add you to the waitlist",
+  "actions": {
+    "submit": "Join Waitlist"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email is required.",
+        "invalid": "Email address must be in a valid format.",
+        "server": {
+          "emailNotExists": "This email address is already on the waitlist."
+        }
+      },
+      "placeholder": "Enter your email address"
+    }
+  },
+  "alerts": {
+    "success": {
+      "title": "Success",
+      "description": "You have been successfully registered. Thank you."
+    },
+    "alreadyRegistered": {
+      "title": "Success",
+      "description": "You are already registered. Thank you."
+    }
+  }
+}

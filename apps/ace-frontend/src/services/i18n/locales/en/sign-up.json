@@ -1,0 +1,67 @@
+{
+  "title": "Giydir | Sign Up",
+  "description": "Sign up quickly",
+  "actions": {
+    "submit": "Sign Up",
+    "accountAlreadyExists": "Already have an account?",
+    "login": "Login"
+  },
+  "errorCodes": {
+    "code422": "The e-mail address entered is registered in our system. Please log in to make transactions related to this account. If you have forgotten your password, use the password reset option."
+  },
+  "isLoading": "Loadings...",
+  "successCodes": {
+    "codeSuccess": "Registration Successful, You are being redirected!"
+  },
+  "inputs": {
+    "firstName": {
+      "label": "First Name",
+      "validation": {
+        "required": "First name is required!"
+      },
+      "placeholder": "Enter your first name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "validation": {
+        "required": "Last name is required"
+      },
+      "placeholder": "Enter your last name"
+    },
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email is required",
+        "invalid": "Email is not valid",
+        "server": {
+          "emailAlreadyExists": "This email is already registered"
+        }
+      },
+      "placeholder": "Enter your email address"
+    },
+    "password": {
+      "label": "Password",
+      "validation": {
+        "required": "Password is required",
+        "min": "Password must be at least 6 characters",
+        "server": {
+          "incorrectPassword": "Incorrect password"
+        }
+      },
+      "placeholder": "Enter your password"
+    },
+    "kvkk": {
+      "label1": "Terms",
+      "label2": "non-disclosure agreement",
+      "label3": "accept.",
+      "validation": "It is mandatory to approve the terms and confidentiality agreement"
+    },
+    "non_disclosure": {
+      "label": "I consent to sending commercial electronic messages containing campaigns, promotions and advertisements to my contact information, processing my personal data for this purpose and sharing it with your suppliers."
+    }
+  },
+  "or": "or",
+  "and": "and",
+  "google": "Sign up with Google",
+  "socialAuthentication": "If you take the next step with your Google or Apple ID You are deemed to have accepted the Individual Account Agreement and its Annexes."
+}

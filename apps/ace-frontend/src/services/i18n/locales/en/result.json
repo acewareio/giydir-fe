@@ -1,0 +1,26 @@
+{
+  "downloadButton": "Download",
+  "shareButton": "Share",
+  "close": "Close",
+  "photosLoadingText": "Photos Loading...",
+  "feedback": "Give feedback",
+  "feedbackText": "Please provide feedback so that we can serve you better.",
+  "shareText": {
+    "shareTextPartOne": "Here are the ones I tried before buying!",
+    "shareTextPartTwo": "",
+    "shareTextEn": "Don't forget to try the"
+  },
+  "sseSteps": {
+    "created": "Uploading Photos...",
+    "analyzing": "Model Analyzing",
+    "drafting": "Applying Outfit",
+    "completed": "Preparing Result"
+  },
+  "resultModal": {
+    "defaultTitle": "Here are the ones I tried before buying! | You should try Giydir.ai!"
+  },
+  "copyToClipboard": {
+    "onSuccess": "Copied to clipboard!",
+    "onFail": "Failed to copy the link, please try again."
+  }
+}

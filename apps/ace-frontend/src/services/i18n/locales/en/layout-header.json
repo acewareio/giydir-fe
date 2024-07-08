@@ -1,0 +1,13 @@
+{
+  "auth": {
+    "signin": "Sign in",
+    "logout": "Log Out",
+    "subscription": "Subscription",
+    "plan": "Standard"
+  },
+  "steps": {
+    "selectImage": "Select Image",
+    "selectProduct": "Select Clothes",
+    "result": "Result"
+  }
+}

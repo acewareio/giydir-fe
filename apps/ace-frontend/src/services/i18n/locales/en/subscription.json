@@ -1,0 +1,39 @@
+{
+  "pricing_list": "Pricing List",
+  "content": "Content",
+  "plans": {
+    "extra": {
+      "name": "Extra",
+      "price": "9.99 TL",
+      "duration": "one-time",
+      "usage": "10 usage rights",
+      "button": "Purchase"
+    },
+    "free": {
+      "name": "Free",
+      "price": "0 TL",
+      "duration": "monthly",
+      "usage": "Daily 3 usage rights",
+      "button": "Your usage allowance is refreshed daily.",
+      "contents": [
+        "10 photo rights in the clothing gallery",
+        "5 photo rights in the model gallery"
+      ],
+      "ideal_for": "Ideal for individuals with limited needs and small teams."
+    },
+    "premium": {
+      "name": "Premium",
+      "price": "49.99 TL",
+      "duration": "monthly",
+      "usage": "Daily 10 usage rights",
+      "button": "Purchase",
+      "contents": [
+        "1000 photo rights in the clothing gallery",
+        "15 photo rights in the model gallery"
+      ],
+      "ideal_for": "Ideal for groups and large teams.",
+      "variant_id": "409686"
+    },
+    "popular": "Popular"
+  }
+}

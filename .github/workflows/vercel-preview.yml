@@ -1,0 +1,36 @@
+name: Create Vercel Deploy
+
+on:
+  push:
+    branches:
+      - development
+
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+jobs:
+  vercel_deploy:
+    if: (github.event_name == 'pull_request' && !github.event.pull_request.draft) || github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Deploy to Vercel
+        uses: iFixit/deploy-to-vercel-action@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+          VERCEL_SCOPE: pathow
+          PRODUCTION: false
+          CREATE_COMMENT: true
+          DELETE_EXISTING_COMMENT: true
+          BUILD_ENV: |
+            NEXT_PUBLIC_BUILD_REF=${{ github.ref }}
+            NEXT_PUBLIC_BUILD_SHA=${{ github.sha }}
+            NEXT_PUBLIC_BUILD_VERSION=${{ steps.latest_tag.outputs.tag }}
+          ALIAS_DOMAINS: |
+            dev.giydir.ai

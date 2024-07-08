@@ -1,0 +1,30 @@
+{
+  "title": "Bekleme listesine ekle",
+  "description": "Email adresini gir ve seni bekleme listesine ekleyelim",
+  "actions": {
+    "submit": "Bekleme listesine ekle"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email zorunlu bir alandır.",
+        "invalid": "Email adresi geçerli bir formatta olmalıdır.",
+        "server": {
+          "emailNotExists": "Bu email adresi zaten bekleme listesine ekli."
+        }
+      },
+      "placeholder": "Email adresinizi girin"
+    }
+  },
+  "alerts": {
+    "success": {
+      "title": "Başarılı",
+      "description": "Kaydınız alınmıştır. Teşekkür ederiz."
+    },
+    "alreadyRegistered": {
+      "title": "Başarılı",
+      "description": "Zaten kayıtlısınız. Teşekkür ederiz."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+type: 'application'
+
+fileGroups:
+  app:
+    - 'pages/**/*'
+    - 'next-env.d.ts'
+    - 'next.config.*'
+
+tasks:
+  build:
+    command: 'next build'
+    inputs:
+      - '@group(app)'
+      - '@group(sources)'
+
+  dev:
+    command: 'next dev'
+    local: true
+
+  start:
+    command: 'next start'
+    local: true
+
+  format:
+    command: 'prettier --write .'
+    local: true
